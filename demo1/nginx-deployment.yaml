@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-  name: nginx-1-12
+  name: nginx-1-13
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
